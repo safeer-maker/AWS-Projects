@@ -42,7 +42,5 @@ resource "aws_iam_policy" "s3_access_lambda" {
 	]
 }
 EOF
-    # inline_policy = {
-	# 	policy = file ("IAM_policy_s3.json")
-	# }
+
 }

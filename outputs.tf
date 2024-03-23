@@ -8,3 +8,7 @@ output "s3_bucket_names" {
             ]
 }
 
+output "name" {
+    value = module.lambda_s3_compression.user_id
+  
+}

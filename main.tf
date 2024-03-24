@@ -1,10 +1,5 @@
-
-terraform {
-    required_providers {
-        aws = {
-        source  = "hashicorp/aws"
-        version = "~> 5.0"
-        } 
-    }
+module "lambda_s3_compression" {
+  source = "./module/lambda_s3_image_compression"
+  
 }
 

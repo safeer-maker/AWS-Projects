@@ -15,4 +15,8 @@
 
 
 ##############################################
+# lambda_ses_email_notification outputs
 
+output "lambda_arn" {
+    value = module.email_notification.lambda_arn
+}

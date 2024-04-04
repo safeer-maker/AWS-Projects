@@ -20,3 +20,7 @@
 output "lambda_arn" {
     value = module.email_notification.lambda_arn
 }
+
+output "api_gateway_arn" {
+    value = module.email_notification.lambda_api_gateway_arn
+}

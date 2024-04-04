@@ -9,3 +9,8 @@ variable "email_secondary" {
   
 }
 
+variable "web_bucket_name" {
+    type = string
+    default = "web_bucket"
+}
+
